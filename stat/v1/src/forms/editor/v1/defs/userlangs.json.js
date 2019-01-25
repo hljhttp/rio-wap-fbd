@@ -1,0 +1,19 @@
+var userLangsObj = {
+    "bg-BG" : 'български (България&nbsp;-&nbsp;BG)',
+    "cs-CZ" : 'čeština (Česká&nbsp;republika&nbsp;-&nbsp;CZ)',
+    "de-AT" : 'Deutsch (Österreich&nbsp;-&nbsp;AT)',
+    "et-EE" : 'eesti (Eesti&nbsp;-&nbsp;EE)',
+    "en-GB" : 'English (United&nbsp;Kingdom&nbsp;-&nbsp;GB)',
+    "hr-HR" : 'hrvatski (Hrvatska&nbsp;-&nbsp;HR)',
+    "hu-HU" : 'magyar (Magyarország&nbsp;-&nbsp;HU)',
+    "kk-KZ" : 'Қазақ (Қазақстан&nbsp;-&nbsp;KZ)',
+    "lt-LT" : 'lietuvių (Lietuva&nbsp;-&nbsp;LT)',
+    "pl-PL" : 'polski (Polska&nbsp;-&nbsp;PL)',
+    "ro-RO" : 'română (România&nbsp;-&nbsp;RO)',
+    "sr-Latn-CS" : 'srpski (Srbija&nbsp;-&nbsp;RS)',
+    "ru-RU" : 'русский (Россия&nbsp;-&nbsp;RU)',
+    "sl-SI" : 'slovenščina (Slovenija&nbsp;-&nbsp;SI)',
+    "sk-SK" : 'slovenčina (Slovensko&nbsp;-&nbsp;SK)', 
+    "tr-TR" : 'Türkçe (Türkiye&nbsp;-&nbsp;TR)',
+    "uk-UA" : 'українська (Україна&nbsp;-&nbsp;UA)'
+}; 

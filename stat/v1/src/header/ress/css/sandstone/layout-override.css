@@ -1,0 +1,342 @@
+.indicator {
+    text-align: right;
+}
+
+.header-border {
+    background-color: #93c54b;
+}
+
+.header-wrapper {
+	border-top: 1px solid #93c54b;
+	border-left: 1px solid #93c54b;
+	border-bottom: 1px solid #93c54b;
+}
+
+.app-menu-brand {
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.app-menu-button {
+    color: #6b9430;
+}
+
+.app-menu-button:focus {
+    background-color: transparent;
+}
+
+.app-menu-button:hover {
+    color: white;
+    background-color: transparent;
+}
+
+.app-menu-button:active {
+	background-color: transparent;
+}
+
+.appl-button {
+    background-image: url('../../gif/appl/appl-sandstone.gif') !important;
+}
+
+.appl-button.opened {
+    color: white;
+}
+
+.environment-button.opened {
+    background-color: #89be3d;
+}
+
+.environment-option {
+    background-color: transparent;
+    border-bottom-color: #f8f5f0;
+    color: #98978b;
+}
+
+.environment-option:hover, .environment-option:active {
+    color: #98978b;
+    background-color: #f8f5f0;
+}
+
+.environment-option.active-option {
+    color: white;
+    background-color: #89be3d;
+}
+
+.user-settings-small-menu-dropdown-option.active-option {
+    color: white;
+    background-color: #89be3d;
+}
+
+
+.user-settings-wrapper.first-item {
+    border-color: #2196f3;
+}
+
+.app-launcher-wrapper {
+    background-color: #93c54b;
+}
+
+.app-launcher-button {
+    background-color: #3e3f3a;
+    color: white !important;
+    border-radius: 4px;
+}
+
+.feedback-form-control {
+    display: block;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #3e3f3a;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #dfd7ca;
+    border-radius: 4px;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.feedback-main-container {
+    background-color: #f8f5f0;
+}
+
+.feedback-submit-button {
+    display: inline-block;
+    margin-bottom: 0;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    white-space: nowrap;
+    padding: 12px 16px;
+    border-radius: 4px;
+    user-select: none;
+    border: none;
+    font-size: 11px;
+    line-height: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #325d88;
+}
+
+.feedback-submit-button:hover {
+    background-color: #244363;
+}
+
+.feedback-button {
+    margin-bottom: 0;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    white-space: nowrap;
+    padding: 12px 16px;
+    border-radius: 4px;
+    user-select: none;
+    border: none;
+    font-size: 11px;
+    line-height: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #3e3f3a;
+}
+
+.feedback-overall-anchor {
+    color: #ffffff;
+    background-color: #3e3f3a;
+    border: none;
+    border-radius: 4px;
+}
+
+.path-anchor-first  {
+    fill: #3e3f3a;
+    stroke: #3e3f3a;
+}
+
+.path-anchor-second {
+    fill: #ffffff;
+    stroke: #3e3f3a;
+}
+
+.feedback-overall-anchor:hover {
+    color: #ffffff;
+    background-color: #244363;
+    border: none;
+}
+
+.feedback-overall-anchor:hover > div > svg > .path-anchor-first {
+    fill: #244363;
+    stroke: #244363;
+}
+
+.feedback-overall-anchor:hover > div > svg > .path-anchor-second {
+    fill: #ffffff;
+    stroke: #244363; 
+}
+
+.feedback-overall-anchor-active {
+    color: #ffffff;
+    background-color: #325d88;
+}
+
+.feedback-overall-anchor-active > div > svg > .path-anchor-first {
+    fill: #325d88;
+    stroke: #325d88;
+}
+
+.feedback-overall-anchor-active > div > svg > .path-anchor-second {
+    stroke: #325d88;
+}
+
+.feedback-overall-anchor-active:hover > div > svg > .path-anchor-first {
+    fill: #244363;
+    stroke: #244363;
+}
+
+.feedback-overall-anchor-active:hover > div > svg > .path-anchor-second {
+    fill: #ffffff;
+    stroke: #244363;
+}
+
+/**
+ * Navigation
+ */
+ .tab {
+    background-color: #F8F5F0;
+ }
+ 
+ .tab-wrapper:hover {
+    background-color: #F8F5F0;
+    border-right: 1px solid;
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+    border-color: #DFD7CA; 
+ }
+
+.tabbar {
+    background-color: #f8f5f0; 
+}
+
+.back-div {
+    background-color: #f8f5f0;
+    color: #6b9430;
+}
+
+.tabbar-button {
+    color: #98978b;
+}
+
+.tab-wrapper {
+    color: #8E8C84;
+}
+ 
+.tab .active-tab {
+    color: #6b9430;    
+}
+
+.active-tab-bottom {
+    color: #6b9430;
+}
+
+.side-navigation-wrapper {
+    background-color: #f8f5f0;
+    color: rgb(62, 63, 58);
+    border-color: #f8f5f0 #f0e9df #f8f5f0 #f8f5f0;
+    border-right: 1px solid #f0e9df;
+}
+
+.side-navigation-separator-line {
+    background-color: #dfd7ca;
+}
+
+.side-navigation-shrink-command-wrapper {
+    color: rgb(62, 63, 58);
+}
+
+.side-navigation-shrink-command-wrapper:hover {
+    color: rgb(129, 179, 58);
+    text-shadow: 0 0 4px rgba(129, 179, 58, .5);
+}
+
+.side-navigation-shrink-glyph-wrapper {
+    outline-color: rgb(62, 63, 58);
+}
+
+.nav-wrapper:hover {
+    background-color: #f0e9df;
+}
+
+.nav-wrapper.displayed-primary-nav {
+    background-color: #f0e9df;
+}
+
+.nav-wrapper.sub-nav {
+    background-color: #f0e9df;
+}
+
+.nav-wrapper.sub-nav:hover {
+    background-color: #dfd7ca;
+}
+
+.nav-wrapper.sub-nav.active-tab {
+    background-color: #dfd7ca;
+}
+
+.nav-wrapper.active-tab {
+    background-color: #f0e9df;
+}
+
+.nav-wrapper.active-tab::before {
+    border-left: 3px solid rgb(129, 179, 58);
+}
+
+.nav-wrapper.active-tab:hover {
+    background-color: #dfd7ca;
+}
+
+.navlinks {
+    color: rgb(62, 63, 58);
+}
+
+.navlinks:hover {
+    color: rgb(62, 63, 58);
+}
+
+.navlinks:focus {
+    color: rgb(62, 63, 58);
+}
+
+.navtitle {
+    color: rgb(62, 63, 58);
+}
+    
+.primary-menu-region {
+    background-color: #3e3f3a;
+    color: rgb(152, 151, 139);
+}
+
+.commandbar-primary-menu-item:hover {
+    background-color: #3e3f3a;
+    border: 1px solid #3e3f3a;
+    color: #ffffff;
+}
+
+.nav-tooltip-list-wrapper {
+    color: rgb(62, 63, 58);
+}
+
+.nav-tooltip-list-item-img {
+    color: rgb(62, 63, 58);
+}
+
+/**
+ * PRINT LAYOUT
+ */
+ 
+@media print {
+    .header-wrapper {
+        border-right: 1px solid #93c54b;
+    }
+}

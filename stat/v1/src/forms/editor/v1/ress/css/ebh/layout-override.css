@@ -1,0 +1,216 @@
+body {
+    background-color: #f7f7f8;
+    font-family: "Roboto";
+    color: #595959;
+    font-size: 15px;
+}
+
+.body-content {
+    padding-left: 25px;
+}
+
+.indicator {
+    text-align: right;
+}
+
+.header-wrapper {
+    box-shadow: 0 0 0;
+    border-bottom: 1px solid #0000003b;
+}
+
+.main-logo {
+    padding-left: 20px;
+}
+
+.main-logo img {
+    width: 38px !important;
+    padding-top: 4px;
+}
+
+#customizationLogo {
+    vertical-align: middle;
+}
+
+#customizationLogo img {
+    height: 40px;
+}
+
+.app-menu-brand {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.app-menu-button {
+    border-left: 1px solid #0000003b;
+}
+
+.tab {
+    background: #015aa1;
+    border-top: 1px solid #ffffff12;
+    color: rgba(255, 255, 255, 0.71);
+    font-weight: 300;
+    letter-spacing: 1;
+    text-transform: uppercase;
+}
+
+.tab .active-tab {
+    color: rgb(255, 255, 255);
+    font-weight: 700 !important;
+}
+
+.tab-wrapper:hover {
+    font-weight: 300;
+    color: white;
+    background: none;
+}
+
+.checkbox,
+.radio {
+  margin-bottom: 22px; }
+
+.radio label, .checkbox label {
+    padding-left: 10px;
+}
+
+.checkbox span,
+.radio span {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none; 
+    -khtml-user-select: none; 
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    padding-left: 30px;
+    margin-bottom: 0; }
+
+.checkbox span::before,
+.checkbox span::after {
+    font-family: 'FontAwesome';
+    content: "\f096";
+    display: inline-block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 0;
+    cursor: pointer;
+    line-height: 19px;
+    font-size: 23px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    top: 1px;
+    color: #DDDDDD;
+    transition: color 0.2s linear;
+    padding: 1px; }
+
+.checkbox span::after {
+  content: "";
+  text-align: center;
+  opacity: 1;
+  left: 1px;
+  color: #DDDDDD; }
+
+.checkbox input[type="checkbox"],
+.radio input[type="radio"] {
+  opacity: 0;
+  margin-left: 0; }
+
+.checkbox input[type="checkbox"]:checked + span::after {
+  font-family: 'FontAwesome';
+  content: "\f046"; }
+
+label:hover span::before {
+    color: #015aa159; 
+}
+
+.formio-component-checkbox:nth-child(1) {
+    /* border-top: 1px solid #cbcbcb; */
+    padding-top: 25px;
+}
+
+.formio-component-checkbox:nth-child(1)::before {
+    content: "";
+    width: 90%;
+    height: 1px;
+    background: #DDDDDD;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+}
+  
+.checkbox input[type="checkbox"]:checked + span::after {
+  color: #015aa1; }
+
+.checkbox input[type="checkbox"]:checked + span::before {
+  opacity: 0; }
+
+.checkbox input[type="checkbox"]:disabled + span,
+.radio input[type="radio"]:disabled + label,
+.checkbox input[type="checkbox"]:disabled:checked + label::span {
+  color: #DDDDDD; }
+
+.checkbox input[type="checkbox"]:disabled + span::before,
+.checkbox input[type="checkbox"]:disabled + span::after {
+  cursor: not-allowed; }
+
+.checkbox input[type="checkbox"]:disabled + span,
+.radio input[type="radio"]:disabled + span {
+  cursor: not-allowed; }
+
+.checkbox.checkbox-circle span::before {
+  border-radius: 50%; }
+
+.checkbox.checkbox-inline {
+  padding-left: 0; }
+
+.radio span::before,
+.radio span::after {
+  font-family: 'FontAwesome';
+  content: "\f10c";
+  font-size: 20px;
+  height: 20px;
+  width: 20px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  position: absolute;
+  line-height: 19px;
+  left: 0;
+  top: 0;
+  color: #DDDDDD;
+  padding: 1px;
+  transition: color 0.2s linear; }
+
+.radio input[type="radio"]:checked + span::after {
+  font-family: 'FontAwesome';
+  content: "\f192";
+  color: #DDDDDD; }
+
+.radio input[type="radio"]:checked + span::after {
+  color: #1DC7EA; }
+
+.radio input[type="radio"]:disabled + span {
+  color: #ddd; }
+
+.radio input[type="radio"]:disabled + span::before,
+.radio input[type="radio"]:disabled + span::after {
+  color: #ddd; }
+
+.radio.radio-inline {
+  margin-top: 0; }
+
+.MicrosoftMap {
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+}
+
+.form-group {
+    margin-bottom: 22px;
+}   
+
+.content-wrapper {
+    overflow-y: hidden;
+}
