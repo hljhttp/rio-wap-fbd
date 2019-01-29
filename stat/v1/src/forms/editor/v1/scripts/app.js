@@ -496,21 +496,21 @@ function setDisplay(display) {
         oldComponentKey = null;
         instance.on('saveComponent', function (event) {
 
-
-
             if (oldEventId != event.id || oldComponentKey != event.key) {
 
                 oldEventId = event.id;
                 oldComponentKey = event.key;
+                
                 var schema = builder.instance.schema;
                 editor.set(schema);
-                // formVersionControl.push(JSON.stringify(schema));'
                 pushFormVersion(schema);
-                updateBuilder = false;
-
+                updateBuilder = true; //if false, when add second component, it's hang.
+                
             }
 
+        });
 
+        instance.on('change', function (event) {
 
         });
 
@@ -542,6 +542,7 @@ function setDisplay(display) {
                 }, 100);
             }
         });
+
         editor.set(instance.schema);
         //Formio.createForm(formElement, instance.schema,langObj);
         generateForm();
